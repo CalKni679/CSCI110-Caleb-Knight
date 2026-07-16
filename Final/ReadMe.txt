@@ -23,6 +23,7 @@
 -Added comments to describe code features
 
 (7-15-26)
+-added basic unit test for checking current range of numbers selected
 -added a write to txt for when you get the number correct
 -Added a while true into my game that allows the player to keep playing until they wish to be done.
 -Uploaded to GitHub
