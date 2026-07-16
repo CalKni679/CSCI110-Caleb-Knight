@@ -97,10 +97,19 @@ def test(did_pass):
     """  Print the result of a test.  """
     linenum = sys._getframe(1).f_lineno   # Get the caller's line number.
     if did_pass:
-        msg = "Test at line {0} IT'S GOOD.".format(linenum)
+        msg = "Test at line {0} Pass.".format(linenum)
     else:
-        msg = ("Test at line {0} NOPE.".format(linenum))
+        msg = ("Test at line {0} Fail.".format(linenum))
     print(msg)
+
+#Unit test for making sure the range of numbers is correct for selected difficulty#
+rng = random.Random()
+#This one passes because the selected number is between the options of 1-10
+easy_dif = rng.randrange(1, 11)
+test(1 <= 7 <= 10)
+#This one is a fail due to being outside the range of the available options
+easy_dif = rng.randrange(1, 11)
+test(1 <= 15 <= 10)
 
 
 
