@@ -4,4 +4,6 @@
 
 -Guess a number based off of current difficulty
 
--Win and feel fulfilled, alternatively lose and feel empty inside. 
+-The program will tell you if your guess is too high or too low
+
+-You get unlimited guesses
