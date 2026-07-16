@@ -59,13 +59,14 @@ def Guessing_Difficulty_Result():
          if num_choice == dice_throw:
            print("That's Right! You Win!")
            print("The number was:", dice_throw)
-#"""Allows player to keep playing until they want to quit"""
+         #"""Writes to a txt file"""#
+           win = open("You Won!.txt", "w")
+           win.write("You Won!\n")
+           win.write("Print this out and hang on your fridge")
+           win.close()
+        #"""Allows player to keep playing until they want to quit"""
            Menu_Options()
            break      
-           #"""Writes to a txt file"""#
-           o.open("You Won!.txt", "w")
-           o.print("You Won!")
-           o.close()
          elif num_choice < dice_throw:
            print("Too Low! Keep Guessing!")
          elif num_choice > dice_throw:
