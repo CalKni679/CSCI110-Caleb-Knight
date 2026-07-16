@@ -8,9 +8,9 @@ import sys
 import random
 #Your program must read and write to a text file. The file can be used to store data for the program. 
 """A simple txt file that will display a how to play guide when selecting option 2"""
-#f = open("How To Play.txt", "r")
-#How2Play = f.read()
-#f.close()
+f = open("How To Play.txt", "r")
+How2Play = f.read()
+f.close()
 #The game must be broken into several functions, preferably some fruitful functions that can be unit-tested. 
 def Number_Guess_Menu():
         """What the player will see when they first start the program"""
