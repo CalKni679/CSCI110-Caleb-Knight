@@ -62,7 +62,7 @@ def Guessing_Difficulty_Result():
          #"""Writes to a txt file"""#
            win = open("You Won!.txt", "w")
            win.write("You Won!\n")
-           win.write("Print this out and hang on your fridge")
+           win.write("Print this out to hang on your fridge")
            win.close()
         #"""Allows player to keep playing until they want to quit"""
            Menu_Options()
