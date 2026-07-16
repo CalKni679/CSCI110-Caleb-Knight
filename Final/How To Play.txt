@@ -1,0 +1,7 @@
+#How To Play#
+
+-Choose Difficulty 
+
+-Guess a number based off of current difficulty
+
+-Win and feel fulfilled, alternatively lose and feel empty inside. 
